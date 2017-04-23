@@ -1,0 +1,22 @@
+{
+  "name": "JWJSON",
+  "version": "0.1.0",
+  "summary": "A short description of JWJSON.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jossstuart/JWJSON",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jossstuart": "james.wilkinson@pagesuite.co.uk"
+  },
+  "source": {
+    "git": "https://github.com/jossstuart/JWJSON.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JWJSON/Classes/**/*"
+}

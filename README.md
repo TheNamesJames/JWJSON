@@ -1,6 +1,6 @@
 # JWJSON
 
-[![CI Status](http://img.shields.io/travis/jossstuart/JWJSON.svg?style=flat)](https://travis-ci.org/jossstuart/JWJSON)
+<!-- [![CI Status](http://img.shields.io/travis/thenamesjames/JWJSON.svg?style=flat)](https://travis-ci.org/jossstuart/JWJSON) -->
 [![Version](https://img.shields.io/cocoapods/v/JWJSON.svg?style=flat)](http://cocoapods.org/pods/JWJSON)
 [![License](https://img.shields.io/cocoapods/l/JWJSON.svg?style=flat)](http://cocoapods.org/pods/JWJSON)
 [![Platform](https://img.shields.io/cocoapods/p/JWJSON.svg?style=flat)](http://cocoapods.org/pods/JWJSON)
@@ -22,7 +22,7 @@ pod "JWJSON"
 
 ## Author
 
-jossstuart, james.wilkinson@pagesuite.co.uk
+James Wilkinson, himynameisjamesw@gmail.com
 
 ## License
 

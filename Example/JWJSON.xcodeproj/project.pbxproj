@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A04E7B8F1EAD57B500A968F2 /* JWJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E7B8E1EAD57B500A968F2 /* JWJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +30,10 @@
 
 /* Begin PBXFileReference section */
 		05AB805D11A79B764E49D187 /* Pods-JWJSON_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWJSON_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWJSON_Example/Pods-JWJSON_Example.release.xcconfig"; sourceTree = "<group>"; };
-		220677020DFE0491EBAAD680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		220677020DFE0491EBAAD680 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5509816E8B3E76FE0F838B80 /* Pods_JWJSON_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWJSON_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C45D35E66639D1BE7118F1 /* Pods-JWJSON_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWJSON_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWJSON_Tests/Pods-JWJSON_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5F3E8019E42F736B855EBAFE /* JWJSON.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JWJSON.podspec; path = ../JWJSON.podspec; sourceTree = "<group>"; };
+		5F3E8019E42F736B855EBAFE /* JWJSON.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JWJSON.podspec; path = ../JWJSON.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JWJSON_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWJSON_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +45,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8AE6166E1BAFBEC26373CBF7 /* Pods-JWJSON_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWJSON_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWJSON_Example/Pods-JWJSON_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8E2077F3004B570DA08E72C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8E2077F3004B570DA08E72C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A04E7B8E1EAD57B500A968F2 /* JWJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JWJSON.swift; path = ../Source/JWJSON.swift; sourceTree = "<group>"; };
 		A468566CF3FF307A5BBCE004 /* Pods_JWJSON_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWJSON_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49A895A5004EF856F0AB7AD /* Pods-JWJSON_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWJSON_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWJSON_Tests/Pods-JWJSON_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				A04E7B8D1EAD578E00A968F2 /* Source */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for JWJSON */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -137,6 +140,14 @@
 				220677020DFE0491EBAAD680 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A04E7B8D1EAD578E00A968F2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A04E7B8E1EAD57B500A968F2 /* JWJSON.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 		CD4E65C2758FB7D34955D0F1 /* Pods */ = {
@@ -361,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04E7B8F1EAD57B500A968F2 /* JWJSON.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
