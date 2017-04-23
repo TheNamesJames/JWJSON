@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JWJSON_Example' do
+  pod 'JWJSON', :path => '../'
+
+  target 'JWJSON_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
