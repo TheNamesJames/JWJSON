@@ -67,6 +67,10 @@ public struct JWJSON {
             return
         }
         
+        self.init(data: data)
+    }
+    
+    public init(data: Data) {
         do {
             let json = try JSONSerialization.jsonObject(with: data, options: [.allowFragments])
             self.init(json)
